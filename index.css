@@ -1,0 +1,42 @@
+body {
+  background-color: #FFFFCC;
+  padding: 20px 20%;
+  background-color: #36453a;
+  font-family: 'Damion', cursive;
+}
+
+#mreza {
+  display: grid;
+  grid-template-areas:
+    "nav nav"
+    "jedro meni";
+  grid-gap: 10px;
+  background-color: #CCFF99;
+}
+#nav {
+  grid-area: nav;
+  text-align: center;
+  padding: 20px;
+
+}
+#nav> a {
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+#jedro {
+  grid-area: jedro;
+  padding: 0 20px;
+}
+
+#meni {
+  grid-area: meni;
+  padding: 0 20px;
+}
+
+#portret {
+  width: 100%;
+  min-width: 100px;
+}
